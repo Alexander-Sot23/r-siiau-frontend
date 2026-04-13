@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-siiau-blue: #0A3D91;
+  /* un azul institucional adecuado */
+  --color-siiau-light: #F3F4F6;
+  /* grisaseo claro para el fondo */
+}
+
+@layer base {
+  body {
+    @apply bg-siiau-light text-gray-800 m-0 p-0 min-h-screen w-full;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
